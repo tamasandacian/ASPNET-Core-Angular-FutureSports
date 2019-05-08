@@ -1,0 +1,44 @@
+E:/Future Sports Technology/Backend/FutureSportsWebAPI/FutureSportsWebAPI/FutureSportsWebAPI/bin/Debug/netcoreapp2.0/FutureSportsWebAPI.deps.json
+E:/Future Sports Technology/Backend/FutureSportsWebAPI/FutureSportsWebAPI/FutureSportsWebAPI/bin/Debug/netcoreapp2.0/FutureSportsWebAPI.runtimeconfig.json
+E:/Future Sports Technology/Backend/FutureSportsWebAPI/FutureSportsWebAPI/FutureSportsWebAPI/bin/Debug/netcoreapp2.0/FutureSportsWebAPI.runtimeconfig.dev.json
+E:/Future Sports Technology/Backend/FutureSportsWebAPI/FutureSportsWebAPI/FutureSportsWebAPI/bin/Debug/netcoreapp2.0/FutureSportsWebAPI.dll
+E:/Future Sports Technology/Backend/FutureSportsWebAPI/FutureSportsWebAPI/FutureSportsWebAPI/bin/Debug/netcoreapp2.0/FutureSportsWebAPI.pdb
+E:/Future Sports Technology/Backend/FutureSportsWebAPI/FutureSportsWebAPI/FutureSportsWebAPI/obj/Debug/netcoreapp2.0/FutureSportsWebAPI.csproj.CoreCompileInputs.cache
+E:/Future Sports Technology/Backend/FutureSportsWebAPI/FutureSportsWebAPI/FutureSportsWebAPI/obj/Debug/netcoreapp2.0/FutureSportsWebAPI.AssemblyInfoInputs.cache
+E:/Future Sports Technology/Backend/FutureSportsWebAPI/FutureSportsWebAPI/FutureSportsWebAPI/obj/Debug/netcoreapp2.0/FutureSportsWebAPI.AssemblyInfo.cs
+E:/Future Sports Technology/Backend/FutureSportsWebAPI/FutureSportsWebAPI/FutureSportsWebAPI/obj/Debug/netcoreapp2.0/FutureSportsWebAPI.dll
+E:/Future Sports Technology/Backend/FutureSportsWebAPI/FutureSportsWebAPI/FutureSportsWebAPI/obj/Debug/netcoreapp2.0/FutureSportsWebAPI.pdb
+E:/Future Sports Technology/Backend/FutureSportsWebAPI/FutureSportsWebAPI/FutureSportsWebAPI/obj/Debug/netcoreapp2.0/FutureSportsWebAPI.csprojResolveAssemblyReference.cache
+E:/Dacian Tamasan/Final Version/Future Sports/repo/FutureSportsWebAPI/FutureSportsWebAPI/bin/Debug/netcoreapp2.0/FutureSportsWebAPI.deps.json
+E:/Dacian Tamasan/Final Version/Future Sports/repo/FutureSportsWebAPI/FutureSportsWebAPI/bin/Debug/netcoreapp2.0/FutureSportsWebAPI.runtimeconfig.json
+E:/Dacian Tamasan/Final Version/Future Sports/repo/FutureSportsWebAPI/FutureSportsWebAPI/bin/Debug/netcoreapp2.0/FutureSportsWebAPI.runtimeconfig.dev.json
+E:/Dacian Tamasan/Final Version/Future Sports/repo/FutureSportsWebAPI/FutureSportsWebAPI/bin/Debug/netcoreapp2.0/FutureSportsWebAPI.dll
+E:/Dacian Tamasan/Final Version/Future Sports/repo/FutureSportsWebAPI/FutureSportsWebAPI/bin/Debug/netcoreapp2.0/FutureSportsWebAPI.pdb
+E:/Dacian Tamasan/Final Version/Future Sports/repo/FutureSportsWebAPI/FutureSportsWebAPI/obj/Debug/netcoreapp2.0/FutureSportsWebAPI.csproj.CoreCompileInputs.cache
+E:/Dacian Tamasan/Final Version/Future Sports/repo/FutureSportsWebAPI/FutureSportsWebAPI/obj/Debug/netcoreapp2.0/FutureSportsWebAPI.AssemblyInfoInputs.cache
+E:/Dacian Tamasan/Final Version/Future Sports/repo/FutureSportsWebAPI/FutureSportsWebAPI/obj/Debug/netcoreapp2.0/FutureSportsWebAPI.AssemblyInfo.cs
+E:/Dacian Tamasan/Final Version/Future Sports/repo/FutureSportsWebAPI/FutureSportsWebAPI/obj/Debug/netcoreapp2.0/FutureSportsWebAPI.dll
+E:/Dacian Tamasan/Final Version/Future Sports/repo/FutureSportsWebAPI/FutureSportsWebAPI/obj/Debug/netcoreapp2.0/FutureSportsWebAPI.pdb
+E:/Dacian Tamasan/Final Version/Future Sports/repo/FutureSportsWebAPI/FutureSportsWebAPI/obj/Debug/netcoreapp2.0/FutureSportsWebAPI.csprojResolveAssemblyReference.cache
+E:/Dacian Tamasan/Final Version/Future Sports/New folder/repo/repo/FutureSportsWebAPI/FutureSportsWebAPI/bin/Debug/netcoreapp2.0/FutureSportsWebAPI.deps.json
+E:/Dacian Tamasan/Final Version/Future Sports/New folder/repo/repo/FutureSportsWebAPI/FutureSportsWebAPI/bin/Debug/netcoreapp2.0/FutureSportsWebAPI.runtimeconfig.json
+E:/Dacian Tamasan/Final Version/Future Sports/New folder/repo/repo/FutureSportsWebAPI/FutureSportsWebAPI/bin/Debug/netcoreapp2.0/FutureSportsWebAPI.runtimeconfig.dev.json
+E:/Dacian Tamasan/Final Version/Future Sports/New folder/repo/repo/FutureSportsWebAPI/FutureSportsWebAPI/bin/Debug/netcoreapp2.0/FutureSportsWebAPI.dll
+E:/Dacian Tamasan/Final Version/Future Sports/New folder/repo/repo/FutureSportsWebAPI/FutureSportsWebAPI/bin/Debug/netcoreapp2.0/FutureSportsWebAPI.pdb
+E:/Dacian Tamasan/Final Version/Future Sports/New folder/repo/repo/FutureSportsWebAPI/FutureSportsWebAPI/obj/Debug/netcoreapp2.0/FutureSportsWebAPI.csproj.CoreCompileInputs.cache
+E:/Dacian Tamasan/Final Version/Future Sports/New folder/repo/repo/FutureSportsWebAPI/FutureSportsWebAPI/obj/Debug/netcoreapp2.0/FutureSportsWebAPI.AssemblyInfoInputs.cache
+E:/Dacian Tamasan/Final Version/Future Sports/New folder/repo/repo/FutureSportsWebAPI/FutureSportsWebAPI/obj/Debug/netcoreapp2.0/FutureSportsWebAPI.AssemblyInfo.cs
+E:/Dacian Tamasan/Final Version/Future Sports/New folder/repo/repo/FutureSportsWebAPI/FutureSportsWebAPI/obj/Debug/netcoreapp2.0/FutureSportsWebAPI.dll
+E:/Dacian Tamasan/Final Version/Future Sports/New folder/repo/repo/FutureSportsWebAPI/FutureSportsWebAPI/obj/Debug/netcoreapp2.0/FutureSportsWebAPI.pdb
+E:/Dacian Tamasan/Final Version/Future Sports/New folder/repo/repo/FutureSportsWebAPI/FutureSportsWebAPI/obj/Debug/netcoreapp2.0/FutureSportsWebAPI.csprojResolveAssemblyReference.cache
+/home/dacy/Dacy's Documents/repo/FutureSportsWebAPI/FutureSportsWebAPI/bin/Debug/netcoreapp2.0/FutureSportsWebAPI.deps.json
+/home/dacy/Dacy's Documents/repo/FutureSportsWebAPI/FutureSportsWebAPI/bin/Debug/netcoreapp2.0/FutureSportsWebAPI.runtimeconfig.json
+/home/dacy/Dacy's Documents/repo/FutureSportsWebAPI/FutureSportsWebAPI/bin/Debug/netcoreapp2.0/FutureSportsWebAPI.runtimeconfig.dev.json
+/home/dacy/Dacy's Documents/repo/FutureSportsWebAPI/FutureSportsWebAPI/bin/Debug/netcoreapp2.0/FutureSportsWebAPI.dll
+/home/dacy/Dacy's Documents/repo/FutureSportsWebAPI/FutureSportsWebAPI/bin/Debug/netcoreapp2.0/FutureSportsWebAPI.pdb
+/home/dacy/Dacy's Documents/repo/FutureSportsWebAPI/FutureSportsWebAPI/obj/Debug/netcoreapp2.0/FutureSportsWebAPI.csprojAssemblyReference.cache
+/home/dacy/Dacy's Documents/repo/FutureSportsWebAPI/FutureSportsWebAPI/obj/Debug/netcoreapp2.0/FutureSportsWebAPI.csproj.CoreCompileInputs.cache
+/home/dacy/Dacy's Documents/repo/FutureSportsWebAPI/FutureSportsWebAPI/obj/Debug/netcoreapp2.0/FutureSportsWebAPI.AssemblyInfoInputs.cache
+/home/dacy/Dacy's Documents/repo/FutureSportsWebAPI/FutureSportsWebAPI/obj/Debug/netcoreapp2.0/FutureSportsWebAPI.AssemblyInfo.cs
+/home/dacy/Dacy's Documents/repo/FutureSportsWebAPI/FutureSportsWebAPI/obj/Debug/netcoreapp2.0/FutureSportsWebAPI.dll
+/home/dacy/Dacy's Documents/repo/FutureSportsWebAPI/FutureSportsWebAPI/obj/Debug/netcoreapp2.0/FutureSportsWebAPI.pdb
