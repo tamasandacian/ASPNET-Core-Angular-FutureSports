@@ -1,0 +1,93 @@
+<div class="modal fade" bsModal #childModal="bs-modal" tabindex="-1" role="dialog" aria-hidden="true" #closeAddExpenseModal>
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title pull-left">Create a New Sport Event</h4>
+                <button type="button" class="close pull-right" aria-label="Close" (click)="childModal.hide()">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form [formGroup]="formData" (ngSubmit)="submitData()">
+                    <div class="form-group">
+                        <input type="text" placeholder="Type Address" name="Address" autocorrect="off" autocapitalize="off" spellcheck="off" type="text"
+                            class="form-control" #search formControlName="Address">
+
+                        <div *ngIf="!formData.get('Address').valid && formData.get('Address').dirty" style="color:red">
+                            Address is required!
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <input type="number" placeholder="Type Max No Of Participants" name="MaxNoOfPlayers" class="form-control" formControlName="MaxNoOfPlayers">
+
+                        <div *ngIf="!formData.get('MaxNoOfPlayers').valid && formData.get('MaxNoOfPlayers').dirty" style="color:red">
+                            Maximum No Of Players is Required!
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <select class="form-control" name="Category" #t (change)="selectCategory(t.value)" formControlName="Category">
+                            <option value="0"> Select Sport Category</option>
+                            <option *ngFor="let data of CategoryList" value={{data.id}}>
+                                {{data.categoryName}}
+                            </option>
+                        </select>
+
+                        <div *ngIf="!formData.get('Category').valid && formData.get('Category').dirty" style="color:red">
+                            Sport Category is required!
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <select class="form-control" name="Experience" #x (change)="selectExperience(x.value)" formControlName="Experience">
+                            <option value="0"> Select Experience Type </option>
+                            <option *ngFor="let data of ExperienceList" value={{data.id}}>
+                                {{data.experienceType}}
+                            </option>
+                        </select>
+
+                        <div *ngIf="!formData.get('Experience').valid && formData.get('Experience').dirty" class="col-sm-8 col-sm-offset-4" style="color:red">
+                            Sport Experience Type is required!
+                        </div>
+                    </div>
+
+                    
+                    <div class="form-group">
+                            <datetime [datepicker]="false" [timepicker]="{  minuteStep: 15, defaultTime: '09:00 AM'  }"  name="start" formControlName="start"></datetime>
+    
+                            <div *ngIf="!formData.get('start').valid && formData.get('start').dirty" style="color:red">
+                                The Start Time is required!
+                            </div>
+                    </div>
+
+                    <div class="form-group">
+
+                            <datetime [datepicker]="false" [timepicker]="{  minuteStep: 15, defaultTime: '09:00 AM'  }" [timepicker]="timepickerOptions" name="end" formControlName="end" placeholder="End"></datetime>
+    
+                            <div *ngIf="!formData.get('end').valid && formData.get('end').dirty" style="color:red">
+                                The End Time is required!
+                            </div>
+                    </div>
+
+                    <div class="form-group">
+                            <datetime [timepicker]="false" [datepicker]="datepickerOpts" name="date" formControlName="date"></datetime>
+    
+                            <div *ngIf="!formData.get('date').valid && formData.get('date').dirty" style="color:red">
+                                Date Time is required!
+                            </div>
+                    </div>
+
+                    <!-- <google-map #mainSearch></google-map> -->
+
+                    <br>
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary" data-dismiss="modal" (click)="hide()">Close</button>
+                        <button type="submit" [disabled]="!formData.valid" class="btn btn-info">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

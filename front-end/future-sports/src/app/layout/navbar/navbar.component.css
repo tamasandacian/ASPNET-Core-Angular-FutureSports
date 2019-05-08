@@ -1,0 +1,21 @@
+nav.navbar-futuresports { background: #fff; border-color: #ccc; box-shadow: 0 0 2px 0 #ccc; }
+nav.navbar-futuresports a { color: #1a8af3; }
+nav.navbar-futuresports ul.navbar-nav a { color: #1a8af3; border-style: solid; border-width: 0 0 2px 0; border-color: #fff; }
+nav.navbar-futuresports ul.navbar-nav a:hover,
+nav.navbar-futuresports ul.navbar-nav a:visited,
+nav.navbar-futuresports ul.navbar-nav a:focus,
+nav.navbar-futuresports ul.navbar-nav a:active { background: #fff; }
+nav.navbar-futuresports ul.navbar-nav a:hover { border-color: #1a8af3; }
+nav.navbar-futuresports li.divider { background: #ccc; }
+nav.navbar-futuresports button.navbar-toggle { background: #1a8af3; border-radius: 2px; }
+nav.navbar-futuresports button.navbar-toggle:hover { background: #999; }
+nav.navbar-futuresports button.navbar-toggle > span.icon-bar { background: #fff; }
+nav.navbar-futuresports ul.dropdown-menu { border: 0; background: #fff; border-radius: 4px; margin: 4px 0; box-shadow: 0 0 4px 0 #ccc; }
+nav.navbar-futuresports ul.dropdown-menu > li > a { color: #444; }
+nav.navbar-futuresports ul.dropdown-menu > li > a:hover { background: #1a8af3; color: #fff; }
+nav.navbar-futuresports span.badge { background: #1a8af3; font-weight: normal; font-size: 11px; margin: 0 4px; }
+nav.navbar-futuresports span.badge.new { background: rgba(255, 0, 0, 0.8); color: #fff; }
+
+.pointer{
+    cursor: pointer;
+}

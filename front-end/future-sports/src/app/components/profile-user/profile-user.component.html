@@ -1,0 +1,108 @@
+<div class="span3 well" *ngIf="user">
+  <div class="text-center" >
+    <a href="#aboutModal" data-toggle="modal" data-target="#myModal">
+      <img src="{{user.avatar}}" name="aboutme" width="140" height="140" class="img-circle">
+      <!-- <img src="{{currentUser.avatar}}" name="aboutme" width="140" height="140" class="img-circle"> -->
+    </a>
+    <h3 class="media-heading"></h3>
+    <h3 class="media-heading">{{user.firstName}}</h3>
+
+    <span>
+      <strong>Skills: </strong>
+    </span>
+    <span class="label label-warning">HTML5/CSS</span>
+    <span class="label label-info">Adobe CS 5.5</span>
+    <span class="label label-info">Microsoft Office</span>
+    <span class="label label-success">Windows XP, Vista, 7</span>
+  </div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+          <h1>
+            <span class="pull-right">
+              <a class="btn btn-sm btn-primary" style="width:130px">
+                  <i class="fa fa-fw fa-eye"></i> Follow {{user.username}}</a>
+            </span>
+          </h1>
+        </div>
+      </div>
+</div>
+  
+</div>
+
+
+
+   
+ 
+
+
+
+<div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <ul class="breadcrumb">
+            <li>
+              <a (click)="onSelect()">Show Events</a>
+            </li>
+            <li>
+              <a (click)="onSelectSecond()">Followers</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="container" [hidden]="IsHidden">
+  <div class="row">
+    <div class="col-sm-12" *ngFor="let event of userEvents">
+      <div class="business-card">
+        <div class="media">
+          <div class="media-left">
+            <img class="media-object img-circle profile-img" src="{{event.categories.imageCategory}}" width="40">
+          </div>
+          <div class="media-body">
+            <h2 class="media-heading"></h2>
+            <div class="job">{{event.categories.categoryName}}</div>
+            <div class="mail">
+              <p class="mail">{{event.address}}</p>
+            </div>
+          </div>
+          <div class="media-right">
+            <a routerLink="/event/{{event.id}}" class="btn btn-info btn-sm" title="More Details">More Details
+              <!-- <span class="glyphicon glyphicon-ok"></span> -->
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container" [hidden]="isHidden">
+    <div class="row">
+      <div class="col-sm-12" *ngFor="let event of userEvents">
+        <div class="business-card">
+          <div class="media">
+            <div class="media-left">
+              <img class="media-object img-circle profile-img" src="{{event.categories.imageCategory}}" width="40">
+            </div>
+            <div class="media-body">
+              <h2 class="media-heading"></h2>
+              <div class="job">{{event.categories.categoryName}}</div>
+              <div class="mail">
+                <p class="mail">{{event.address}}</p>
+              </div>
+            </div>
+            <div class="media-right">
+              <a routerLink="/event/{{event.id}}" class="btn btn-info btn-sm" title="More Details">More Details
+                <!-- <span class="glyphicon glyphicon-ok"></span> -->
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

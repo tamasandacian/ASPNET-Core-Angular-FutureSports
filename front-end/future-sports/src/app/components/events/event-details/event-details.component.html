@@ -1,0 +1,114 @@
+<div class="container-fluid text-center" *ngIf="eventDetails">
+	<div class="position">
+		<div class="row">
+
+
+
+			<ng-template #usersNotFound>
+				<div class="col-sm-3">
+					<div class="col-sm-12 well well-sm">
+						<div class="well well-sm">
+							<p>
+								<b>There are no users participating yet!</b>
+							</p>
+						</div>
+					</div>
+				</div>
+
+			</ng-template>
+
+			<div class="col-sm-3">
+				<div class="col-sm-12 well well-sm">
+					<div class="well well-sm">
+						<p>
+							<b>Weather Forecast</b>
+						</p>
+					</div>
+
+					<div class="col-sm-3">
+						<div class="text-center">
+							<!-- <a>
+					<img src="" width="45px" height="45px" class="img-circle responsive	">
+				</a> -->
+							<span class="label" style="color:black"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="div" *ngIf="userParticipants; else usersNotFound">
+				<div class="col-sm-5">
+
+						<div class="row">
+								<div class="col-sm-12 well well-sm">
+									<div class="well well-sm">
+										<p>
+											<b>Event Details</b>
+										</p>
+									</div>
+		
+									<div class="col-sm-3" >
+										<div class="text-center">
+											
+										</div>
+									</div>
+		
+								</div>
+								
+							</div>
+
+
+					<div class="row">
+						<div class="col-sm-12 well well-sm">
+							<div class="well well-sm">
+								<p>
+									<b>User Participants</b>
+								</p>
+							</div>
+
+							<div class="col-sm-2" *ngFor="let user of userParticipants">
+								<div class="text-center">
+									<a routerLink="/profile/user/{{user.username}}">
+										<img src="{{user.avatar}}" width="45px" height="45px" class="img-circle responsive	">
+									</a>
+									<span class="label" style="color:black">{{user.firstName}}</span>
+								</div>
+							</div>
+
+						</div>
+						<div class="well">
+							<p>
+								<button *ngIf="showParticipateButton" type="button" class="btn btn-success btn-xs" mwlConfirmationPopover [popoverTitle]="popoverTitle"
+								 [popoverMessage]="popoverMessage" cancelButtonType="danger" placement="top" (confirm)="participate(); true" (cancel)="cancelClicked(); true"
+								 title="Approved">participate
+								</button>
+
+								<button *ngIf="showSelected" class="btn btn-danger btn-xs" cancelButtonType="danger" mwlConfirmationPopover [popoverTitle]="popoverTitle"
+								 [popoverMessage]="popoverMessage" placement="top" (confirm)="unparticipate(); true" (cancel)="cancelClicked(); true">
+									Unparticipate?
+								</button>
+							</p>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-sm-4">
+				<div class="google-map well well-sm">
+					<agm-map [fullscreenControl]="true" [latitude]="convertStringToNumber(eventDetails.latitude)" [longitude]="convertStringToNumber(eventDetails.longitude)"
+					 [scrollwheel]="true" [zoom]="zoom" [styles]="customStyle">
+						<agm-marker [latitude]="convertStringToNumber(eventDetails.latitude)" [longitude]="convertStringToNumber(eventDetails.longitude)"
+						 iconUrl="{{eventDetails.categories.imageCategory}}"></agm-marker>
+					</agm-map>
+				</div>
+			</div>
+
+		</div>
+		<div class="row">
+
+		</div>
+	</div>
+</div>

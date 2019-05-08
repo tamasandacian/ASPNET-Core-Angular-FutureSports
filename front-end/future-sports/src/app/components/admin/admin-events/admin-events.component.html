@@ -1,0 +1,175 @@
+<div class="container">
+   <div class="row">
+      <div class="col-md-12">
+          <div class="panel panel-primary">
+              <div class="panel-heading">
+                  <h3 class="panel-title"> Data Entity</h3>
+              </div>
+              <div class="panel-body">
+                  <div class="col-md-12">
+                      <div class="panel panel-default">
+                          <div class="panel-body">
+                              <div class="col-sm-6">
+                                  <div class="form-horizontal">               
+                                      <label class="col-xs-4 control-label">Conceptual Data :</label>
+                                      <p class="form-control-static">ลูกค้า</p>  
+                                  </div>
+                              </div>
+                              <div class="col-sm-6">
+                              <div class="form-horizontal">               
+                                     <label class="col-xs-4 control-label">Description : </label>
+                                      <p class="form-control-static">...</p>             
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                      
+                      <table class="table table-striped custab">
+                      <thead>
+                         <tr>
+                              <th>ID</th>
+                              <th>Data Entities</th>
+                              <th>Description</th>
+                              <th class="text-center">Status</th>
+                          </tr>
+                      </thead>
+                      <tr>
+                          <td>1</td>
+                          <td>	<a id="create" class="btn-xs btn-default " data-toggle="modal" data-target="#item_view">Create Sport Event</a></td>
+                          <td></td>
+                          <td class="text-center"><span class="label label-success">Active</span></td>
+                      </tr>
+                      <tr>
+                          <td>2</td>
+                          <td><a href="#">ผู้เอาประกัน</a></td>
+                          <td></td>
+                          <td class="text-center"><span class="label label-success">Active</span></td>
+                          </tr>
+                      <tr>
+                          <td>3</td>
+                          <td><a href="#">ผู้รับผลประโยชน์</a></td>
+                          <td></td>
+                          <td class="text-center"><span class="label label-default">Inactive</span></td>
+                          </tr>
+                       <tr>
+                          <td>4</td>
+                          <td><a href="#">ผู้ชำระเบี้ยประกัน</a></td>
+                          <td></td>
+                          <td class="text-center"><span class="label label-default">Inactive</span></td>
+                      </table>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  
+  <div class="row">
+      <div class="col-md-12">
+          <div class="panel panel-primary">
+              <div class="panel-heading">
+                  <h3 class="panel-title"> Data Entity</h3>
+              </div>
+              <div class="panel-body">
+                  <div class="row">
+                      <div class="col-md-12">
+                          <div class="panel panel-default">
+                              <div class="panel-body">
+                                  <div class="row">
+                                      <div class="col-md-7">
+                                          <div class="form-group">
+                                              <label class="control-label" for="name">Conceptual Data</label>
+                                              <input id="name" name="name" type="text" placeholder="ลูกค้า" class="form-control input-md">
+                                          </div>
+                                      </div>
+                              <!-- Text input-->
+                                      <div class="col-md-6">
+                                          <div class="form-group">
+                                              <label class="control-label" for="email">Data Entity</label>
+                                              <input id="email" name="email" type="text" placeholder="Data Entity" class="form-control input-md">
+                                          </div>
+                                      </div>
+                                      <div class="col-md-6">
+                                          <div class="form-group">
+                                              <label class="control-label" for="date">Description</label>
+                                              <input id="date" name="date" type="text" placeholder="Description" class="form-control input-md">
+                                          </div>
+                                      </div>
+                                      <div class="col-md-6">
+                                          <div class="form-group">
+                                              <label class="control-label" for="date">Status</label>
+                                              <div class="radio">
+                                                  <label class="radio-inline">
+                                                      <input type="radio" id="status" name="statusradio" value="Female">Active
+                                                  </label>
+                                                <label class="radio-inline">
+                                                      <input type="radio" id="status" name="statusradio" value="Male">Inactive
+                                                  </label>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <div class="row">
+                  <div class="col-md-12">
+                      <div class="panel panel-default">
+                          <div class="panel-body">
+                              <div class="form-group">
+                                  <label class="col-md-5 control-label" for="button1id"></label>
+                                <div class="col-md-6">
+                                  <button id="button1id" name="button1id" class="btn btn-primary">Create</button>
+                                  <button id="button2id" name="button2id" class="btn btn-danger">Cancel</button>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  </div>
+
+
+
+  <div class="modal fade item_view" id="item_view">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a href="#" data-dismiss="modal" class="class pull-right"><span class="glyphicon glyphicon-remove"></span></a>
+                <h3 class="modal-title">Thông tin chi tiết nhân viên </h3>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6 item_img">
+                        <img src="http://www.bvctch.vn/vnt_upload/about/thumbs/270_crop__Bsvoduylinh.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-md-6 item_content">
+                        <h4>
+                            <span>Mã nhân viên: NV0001</span>
+                            <!--span class="input-group-btn">
+                                <button class="btn btn-danger btn-xs pull-right"; data-dismiss="modal" data-toggle="modal" data-target="#item_remove"><i class="glyphicon glyphicon-remove" ></i></button>
+                                <button class="btn btn-warning btn-xs pull-right"; data-dismiss="modal" data-toggle="modal" data-target= "#item_edit"><i class="glyphicon glyphicon-edit" ></i></button>
+                            </span-->
+                        </h4>
+                        <h5>Chức vụ: <span>Kế toán</span></h5>
+                        <p>Tình trạng: Làm việc</p>
+                        
+                        <p>Họ và tên: Tên Của Nhân Viên</p>
+                        <p>Bằng cấp: Đại học</p>
+                        <p>SĐT: 09111xxxxx</p>
+                        <p>Địa chỉ: 227 Nguyễn Văn Cừ - P.2 - Q.5 - Tp.HCM</p>
+                        <p>Mô tả bản thân.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+  </div>

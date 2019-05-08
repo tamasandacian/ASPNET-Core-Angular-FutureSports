@@ -1,0 +1,8 @@
+.modal-dialog {
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: auto;
+    
+  } 

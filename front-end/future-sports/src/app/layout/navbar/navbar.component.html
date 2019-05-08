@@ -1,0 +1,46 @@
+<nav class="navbar navbar-futuresports">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" routerLink="home">FS</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="nav navbar-nav">
+
+      </ul>
+
+
+      <ul class="nav navbar-nav navbar-right">
+        <li *ngIf="!isAuthenticated">
+          <a routerLink="login">Login</a>
+        </li>
+        <li *ngIf="!isAuthenticated">
+          <a routerLink="register">Register</a>
+        </li>
+
+        <li *ngIf="isAuthenticated"><a  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-fw fa-bell-o"></i> My Notifications <span class="badge">0</span></a></li>
+
+        <li *ngIf="isAuthenticated" class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" style="position: relative; padding-left:50px;"><img src="{{currentUser.avatar}} " style="width: 32px; height:32px; position:absolute;left:7px; top:5px; border-radius: 50%" alt="">Welcome {{currentUser.firstName}} <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+                <li><a routerLink="myprofile">My Profile</a></li>
+              
+                <li><a>Activity Log</a></li>
+                <li class="divider"></li>
+                <li><a (click)="logOut()" class="pointer">Logout</a></li>
+            </ul>
+        </li>
+
+        <!-- <li *ngIf="isLoggedIn" class="nav-item">
+                <a class="nav-link">{{loggedInUser}}</a>
+              </li> -->
+      </ul>
+    </div>
+  </div>
+</nav>
